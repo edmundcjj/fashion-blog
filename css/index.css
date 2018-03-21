@@ -1,0 +1,67 @@
+
+h1 > a{
+  color: red;
+  font-family: 'VT323', monospace;
+}
+
+h4 > a{
+  color: red;
+  font-family: 'VT323', monospace;
+}
+
+h2,h3{
+  font-family: 'VT323', monospace;
+}
+
+h3{
+  font-size: 3rem;
+}
+
+nav > a{
+  font-family: 'VT323', monospace;
+  font-size: 1.7rem;
+  text-decoration: underline;
+  margin-right: 10px;
+  color: #90A4AE;
+}
+
+li{
+  font-family: 'VT323', monospace;
+  font-size: 1.3rem;
+  color: red;
+  padding-right: 5px;
+  border-right: 1px solid #90A4AE;
+}
+
+.list-inline-item:not(:last-child) {
+  margin: 0;
+}
+
+article{
+  max-width: 80vh;
+}
+
+p{
+  text-align: justify;
+}
+
+hr.style-six {
+  width: 80vh;
+  border: 0;
+  height: 0;
+  border-top: 3px double #8c8b8b;
+}
+
+
+
+.m-10{
+  margin-left: 50px;
+}
+
+.m-header{
+  margin-top: 20px;
+}
+
+.m-article{
+  margin-top: 40px;
+}
